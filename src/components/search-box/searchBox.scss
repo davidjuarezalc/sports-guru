@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  .title {
+    flex: 50%;
+    text-align: center;
+  }
+  input {
+    border-radius: 6px;
+    border-color: red;
+    font-size: 20px;
+  }
+  button {
+    border-radius: 6px;
+    background-color: #ff5131;
+  }
+  .search {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 50%;
+  }
+}
+
+hr {
+  margin: 0 5vw;
+}
